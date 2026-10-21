@@ -1,0 +1,75 @@
+name: Stage MW visual model resources
+
+on:
+  push:
+    branches:
+      - feature/assets-migration-20261020
+    paths:
+      - .github/workflows/stage-mw-models.yml
+
+permissions:
+  contents: write
+
+jobs:
+  migrate-models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Check out Assets migration branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Fetch pinned original MW resources
+        shell: bash
+        env:
+          SOURCE_SHA: bebb93f3f55f947fc74756b2995eee88ff714390
+        run: |
+          set -euo pipefail
+          git clone --depth=1 --filter=blob:none --no-checkout \
+            https://github.com/Sylem2k/Reforger-Warfare--MechWarriorProject-main.git \
+            "$RUNNER_TEMP/mw-source"
+          git -C "$RUNNER_TEMP/mw-source" fetch --depth=1 origin "$SOURCE_SHA"
+          git -C "$RUNNER_TEMP/mw-source" checkout --detach "$SOURCE_SHA"
+          test -d "$RUNNER_TEMP/mw-source/Common/Models"
+
+      - name: Copy all model assets and original meta GUIDs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p Common/Models
+          rsync -a "$RUNNER_TEMP/mw-source/Common/Models/" Common/Models/
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import os
+          src = Path(os.environ["RUNNER_TEMP"]) / "mw-source" / "Common" / "Models"
+          dst = Path("Common/Models")
+          source = {p.relative_to(src) for p in src.rglob("*") if p.is_file()}
+          target = {p.relative_to(dst) for p in dst.rglob("*") if p.is_file()}
+          assert source == target, f"File list differs: missing={source-target} extra={target-source}"
+          assert len(source) >= 300, f"Unexpectedly small source set: {len(source)}"
+          copied_bytes = 0
+          for rel in sorted(source):
+              a = src / rel
+              b = dst / rel
+              ab = a.read_bytes()
+              bb = b.read_bytes()
+              assert hashlib.sha256(ab).digest() == hashlib.sha256(bb).digest(), str(rel)
+              copied_bytes += len(ab)
+          print(f"PASS: {len(source)} identical files, {copied_bytes/1048576:.2f} MiB, original paths and .meta files preserved.")
+          PY
+
+      - name: Commit staged models on migration branch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- Common/Models
+          if git diff --cached --quiet; then
+            echo "No asset changes to commit."
+            exit 0
+          fi
+          git commit -m "Stage MW Common/Models with original GUIDs and binary content"
+          git push origin HEAD:refs/heads/feature/assets-migration-20261020
