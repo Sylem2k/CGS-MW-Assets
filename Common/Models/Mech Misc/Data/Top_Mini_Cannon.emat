@@ -1,2 +1,4 @@
 MatPBRBasic {
+ BCRMap "{6EB106CD756AED6A}Common/Models/Mech Left Arm/Data/Kitbash_BCR.edds"
+ NMOMap "{5669BD5FAC1DBFF4}Common/Models/Mech Left Arm/Data/Kitbash_NMO.edds"
 }

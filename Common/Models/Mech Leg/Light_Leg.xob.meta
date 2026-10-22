@@ -2,6 +2,7 @@ MetaFileClass {
  Name "{00BF568EACF0923C}Common/Models/Mech Leg/Light_Leg.xob"
  Configurations {
   FBXResourceClass PC {
+   ExportSkinning 1
    Rotate 0 180 0
    MaterialAssigns {
     MaterialAssignClass "{6AA82E2C2D733AA8}" {

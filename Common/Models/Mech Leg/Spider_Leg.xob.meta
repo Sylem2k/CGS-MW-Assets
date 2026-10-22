@@ -2,10 +2,13 @@ MetaFileClass {
  Name "{F6BA7D9E35B65FE2}Common/Models/Mech Leg/Spider_Leg.xob"
  Configurations {
   FBXResourceClass PC {
+   ExportSkinning 1
+   Scale 0.8 0.8 0.8
+   Rotate 0 -90 0
    MaterialAssigns {
     MaterialAssignClass "{6AA82E2BC57B77FE}" {
      SourceMaterial "aiStandardSurface2"
-     AssignedMaterial "{FB9AB04A552B7220}Common/Models/Mech Leg/Data/aiStandardSurface2.emat"
+     AssignedMaterial "{FB9AB04A552B7220}Common/Models/Mech Leg/Data/Spider_Leg.emat"
     }
    }
    MeshParams {
