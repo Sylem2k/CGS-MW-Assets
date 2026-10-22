@@ -5,22 +5,22 @@ EffectDef {
    ShapeType Point
    ShapeSize 0 0 0
    MaxNum 256
-   BirthRate 600
+   BirthRate 360
    Offset 0 0 0
    LocalTransform 0
    Material "{2DF4058A4066E031}Particles/_Materials/Fire/Base_Sparks_07.emat"
-   SizeMultiplier 0.18
+   SizeMultiplier 0.24
    SizeRND 0.02
    StretchMultiplier 1
    ScaleX 0.25
-   ScaleY 2
+   ScaleY 5
    BillboardingType Full
    VelAngle 0
    RandomAngle 0
    Velocity 0
    GravityMultiply 0
    WindInfluence 0
-   Lifetime 0.16
+   Lifetime 0.21
    LifetimeRND 0
    Color {
     0 0.12 0.72 1 1 0.12 0.72 1
@@ -35,22 +35,22 @@ EffectDef {
    ShapeType Point
    ShapeSize 0 0 0
    MaxNum 256
-   BirthRate 500
+   BirthRate 300
    Offset 0 0 0
    LocalTransform 0
    Material "{2DF4058A4066E031}Particles/_Materials/Fire/Base_Sparks_07.emat"
-   SizeMultiplier 0.06
+   SizeMultiplier 0.085
    SizeRND 0.01
    StretchMultiplier 1
    ScaleX 0.14
-   ScaleY 1.4
+   ScaleY 3.5
    BillboardingType Full
    VelAngle 0
    RandomAngle 0
    Velocity 0
    GravityMultiply 0
    WindInfluence 0
-   Lifetime 0.12
+   Lifetime 0.17
    LifetimeRND 0
    Color {
     0 0.85 1 1 1 0.85 1 1
