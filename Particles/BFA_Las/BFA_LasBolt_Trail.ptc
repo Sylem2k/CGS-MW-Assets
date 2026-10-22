@@ -1,0 +1,68 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef beam_glow {
+   ShapeType Point
+   ShapeSize 0 0 0
+   MaxNum 256
+   BirthRate 600
+   Offset 0 0 0
+   LocalTransform 0
+   Material "{2DF4058A4066E031}Particles/_Materials/Fire/Base_Sparks_07.emat"
+   SizeMultiplier 0.18
+   SizeRND 0.02
+   StretchMultiplier 1
+   ScaleX 0.25
+   ScaleY 2
+   BillboardingType Full
+   VelAngle 0
+   RandomAngle 0
+   Velocity 0
+   GravityMultiply 0
+   WindInfluence 0
+   Lifetime 0.16
+   LifetimeRND 0
+   Color {
+    0 0.12 0.72 1 1 0.12 0.72 1
+   }
+   Alpha {
+    0 0.9 0.7 0.7 1 0
+   }
+   EmittingTime 1
+   Repeat 1
+  }
+  EmitterDef beam_core {
+   ShapeType Point
+   ShapeSize 0 0 0
+   MaxNum 256
+   BirthRate 500
+   Offset 0 0 0
+   LocalTransform 0
+   Material "{2DF4058A4066E031}Particles/_Materials/Fire/Base_Sparks_07.emat"
+   SizeMultiplier 0.06
+   SizeRND 0.01
+   StretchMultiplier 1
+   ScaleX 0.14
+   ScaleY 1.4
+   BillboardingType Full
+   VelAngle 0
+   RandomAngle 0
+   Velocity 0
+   GravityMultiply 0
+   WindInfluence 0
+   Lifetime 0.12
+   LifetimeRND 0
+   Color {
+    0 0.85 1 1 1 0.85 1 1
+   }
+   Alpha {
+    0 1 0.8 0.75 1 0
+   }
+   EmittingTime 1
+   Repeat 1
+  }
+ }
+ MinFPS 30
+ LightClipEV -16
+ CastShadow 0
+}
