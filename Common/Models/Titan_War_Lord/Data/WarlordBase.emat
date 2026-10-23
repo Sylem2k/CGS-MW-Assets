@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{F4B08DBC35A83F66}Common/Models/Titan_War_Lord/Data/Imperial_Titan_WarlordBase_BCR.edds"
+ NMOMap "{07245DEFF2F6D823}Common/Models/Titan_War_Lord/Data/Imperial_Titan_WarlordBase_NHO..edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CE7034D41CB8B0E2}Common/Models/Titan_War_Lord/Data/WarlordBase.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

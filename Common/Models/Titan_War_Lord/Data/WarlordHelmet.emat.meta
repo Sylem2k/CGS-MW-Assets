@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CF4046E4D84469C3}Common/Models/Titan_War_Lord/Data/WarlordHelmet.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

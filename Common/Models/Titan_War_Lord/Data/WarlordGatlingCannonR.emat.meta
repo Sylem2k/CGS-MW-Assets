@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{02569C3AA054BA98}Common/Models/Titan_War_Lord/Data/WarlordGatlingCannonR.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
