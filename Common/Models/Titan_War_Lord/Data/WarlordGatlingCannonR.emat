@@ -1,4 +1,6 @@
 MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
  BCRMap "{8D07AFF6A20C622D}Common/Models/Titan_War_Lord/Data/Imperial_Titan_WarlordGatlingCannonR_BCR.edds"
  NMOMap "{10D2B10CB88AD310}Common/Models/Titan_War_Lord/Data/Imperial_Titan_WarlordGatlingCannonR_NHO..edds"
 }
