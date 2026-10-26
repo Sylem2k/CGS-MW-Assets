@@ -1,4 +1,6 @@
 MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
  Color 0 0.084 0.025 1
  DiffuseIBL 0.251 0 0.502 1
  BCRMap "{615B708FF788173D}Common/Models/Mech Body/Data/initialShadingGroup_Base_color.edds"
