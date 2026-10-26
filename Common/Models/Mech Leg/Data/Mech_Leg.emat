@@ -1,4 +1,6 @@
 MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
  BCRMap "{EC457EAB9C3E5C98}Common/Models/Mech Left Arm/Data/initialShadingGroup_Base_color.edds"
  NMOMap "{DD17D861DEBFA9D3}Common/Models/Mech Left Arm/Data/initialShadingGroup_Mixed_AO.edds"
 }
