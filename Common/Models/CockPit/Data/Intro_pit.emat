@@ -1,2 +1,8 @@
 MatPBRBasic {
+ VFXMap "{B7218373854263AB}Common/Models/CockPit/Data/BFA_MechCockpit_Screen_VFX_1024.edds"
+ EmissiveMap "{A2B0030BB612DDEB}Common/Models/CockPit/Data/BFA_MechCockpit_Emissive_1024.edds"
+ BCRMap "{8614803B99D7D569}Common/Models/CockPit/Data/BFA_MechCockpit_BCR_1024.edds"
+ NMOMap "{F89B7EF7BC2C9524}Common/Models/CockPit/Data/BFA_MechCockpit_NMO_1024.edds"
+ DetailNormalMap "{A62D7C04327D5A46}Common/Models/CockPit/Data/BFA_MechCockpit_Detail_1024.edds"
+ HeightMap "{A27C89E4A19E6F9A}Common/Models/CockPit/Data/BFA_MechCockpit_Height_1024.edds"
 }
