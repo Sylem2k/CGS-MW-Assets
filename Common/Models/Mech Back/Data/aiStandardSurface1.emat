@@ -1,3 +1,5 @@
 MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
  BCRMap "{6EB106CD756AED6A}Common/Models/Mech Left Arm/Data/Kitbash_BCR.edds"
 }

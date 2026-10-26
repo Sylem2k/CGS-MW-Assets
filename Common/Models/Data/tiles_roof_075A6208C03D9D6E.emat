@@ -1,3 +1,5 @@
 MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
  BCRMap "{D09A3AAFF8C7F0DE}Common/Models/Sen_Right_Leg.edds"
 }

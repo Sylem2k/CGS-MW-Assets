@@ -1,4 +1,6 @@
 MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
  Color 0.475 0.686 0.259 1
  DiffuseIBL 0.071 0.192 0.561 1
  SpecularIBL 0.071 0.192 0.561 1
