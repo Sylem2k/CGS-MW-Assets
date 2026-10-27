@@ -2,27 +2,41 @@ MetaFileClass {
  Name "{7CBF30C1F35A8565}Common/Models/CockPit/Heavy_Cock_pit.xob"
  Configurations {
   FBXResourceClass PC {
-   Common TXOCommonClass "{6AB545C9499A871F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   Scale 1.8 1.7 1.7
+   MaterialAssigns {
+    MaterialAssignClass "{6AB626FB6BA599B7}" {
+     SourceMaterial "Heavy_Cock_Pit"
+     AssignedMaterial "{CE4CD4FB4484079C}Common/Models/CockPit/Data/Heavy_Cock_Pit.emat"
+    }
    }
+   MeshParams {
+    MeshParam Heavy_Cock_Pit {
+    }
+   }
+   Common TXOCommonClass "{6AB626FB6B7EFE6D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.14 LTS"
   }
   FBXResourceClass XBOX_ONE : PC {
-   Common TXOCommonClass "{6AB545C9499CC1A9}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6AB626FB6B7EF1CC}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_SERIES : PC {
-   Common TXOCommonClass "{6AB545C9499CC09A}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6AB626FB6B7EF075}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass PS4 : PC {
-   Common TXOCommonClass "{6AB545C9499CC37A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6AB626FB6B7EF08A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass PS5 : PC {
-   Common TXOCommonClass "{6AB545C9499CC3FE}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6AB626FB6B7EF0D2}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass HEADLESS : PC {
-   Common TXOCommonClass "{6AB545C9499CC241}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6AB626FB6B7EF311}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
   }
  }

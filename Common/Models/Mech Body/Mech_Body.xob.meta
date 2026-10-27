@@ -2,6 +2,7 @@ MetaFileClass {
  Name "{D9C14CA501962E2D}Common/Models/Mech Body/Mech_Body.xob"
  Configurations {
   FBXResourceClass PC {
+   Scale 1.8 1.8 1.8
    Rotate 0 180 0
    MaterialAssigns {
     MaterialAssignClass "{6AA82E2C9FC824A7}" {
