@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3D44C9D6E7B97E80}Common/Models/Mech Track/Data/CGS_Rubber_Tread.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

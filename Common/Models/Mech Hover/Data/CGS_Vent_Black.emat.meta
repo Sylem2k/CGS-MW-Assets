@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7BD825F7A267AFF5}Common/Models/Mech Hover/Data/CGS_Vent_Black.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

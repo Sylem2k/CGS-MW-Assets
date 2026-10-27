@@ -1,0 +1,62 @@
+MetaFileClass {
+ Name "{08182C30B6AE4C3B}Common/Models/Mech Hover/CGS_HoverPad_L.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AB65DBA789163B9}" {
+     SourceMaterial "CGS_Dark_Armor"
+     AssignedMaterial "{42DEBCBC36EA7892}Common/Models/Mech Hover/Data/CGS_Dark_Armor.emat"
+    }
+    MaterialAssignClass "{6AB65DBA7891638E}" {
+     SourceMaterial "CGS_Vent_Black"
+     AssignedMaterial "{7BD825F7A267AFF5}Common/Models/Mech Hover/Data/CGS_Vent_Black.emat"
+    }
+    MaterialAssignClass "{6AB65DBA7891638C}" {
+     SourceMaterial "CGS_Brushed_Steel"
+     AssignedMaterial "{27754B43154CCA99}Common/Models/Mech Hover/Data/CGS_Brushed_Steel.emat"
+    }
+    MaterialAssignClass "{6AB65DBA78916393}" {
+     SourceMaterial "CGS_Armor_Highlight"
+     AssignedMaterial "{F86B13826B5F887F}Common/Models/Mech Hover/Data/CGS_Armor_Highlight.emat"
+    }
+    MaterialAssignClass "{6AB65DBA78916396}" {
+     SourceMaterial "CGS_Hover_Cyan_Emission"
+     AssignedMaterial "{8063BE42E657BA0A}Common/Models/Mech Hover/Data/CGS_Hover_Cyan_Emission.emat"
+    }
+    MaterialAssignClass "{6AB65DBA78916395}" {
+     SourceMaterial "CGS_Amber_Identification"
+     AssignedMaterial "{103017504583585F}Common/Models/Mech Hover/Data/CGS_Amber_Identification.emat"
+    }
+   }
+   MeshParams {
+    MeshParam CGS_HoverPad_L {
+    }
+   }
+   Common TXOCommonClass "{6AB65DBA79CA0D5F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.14 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AB65DBA79CA010D}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AB65DBA79CA01FE}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AB65DBA79CA007A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AB65DBA79CA00EE}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AB65DBA79CA0372}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

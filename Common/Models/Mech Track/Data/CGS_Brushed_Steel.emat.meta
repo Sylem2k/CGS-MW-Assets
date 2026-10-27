@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4035CD10E0C8A436}Common/Models/Mech Track/Data/CGS_Brushed_Steel.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

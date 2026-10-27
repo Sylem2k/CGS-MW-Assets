@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8063BE42E657BA0A}Common/Models/Mech Hover/Data/CGS_Hover_Cyan_Emission.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
