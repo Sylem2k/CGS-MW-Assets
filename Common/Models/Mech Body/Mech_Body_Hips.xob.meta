@@ -2,6 +2,7 @@ MetaFileClass {
  Name "{55F16F6C46F95447}Common/Models/Mech Body/Mech_Body_Hips.xob"
  Configurations {
   FBXResourceClass PC {
+   Scale 2 2 2
    Rotate 0 180 0
    MaterialAssigns {
     MaterialAssignClass "{6AA82E2C9FDE3BA2}" {

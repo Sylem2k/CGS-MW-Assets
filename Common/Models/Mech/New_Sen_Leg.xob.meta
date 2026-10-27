@@ -1,13 +1,14 @@
 MetaFileClass {
- Name "{D5815F90853860E4}Common/Models/New_Sen_Leg.xob"
+ Name "{D5815F90853860E4}Common/Models/Mech/New_Sen_Leg.xob"
  Configurations {
   FBXResourceClass PC {
    ExportSkinning 1
+   Scale 1.5 1.5 1.5
    Rotate 0 180 0
    MaterialAssigns {
     MaterialAssignClass "{6A9601EA01FB696C}" {
      SourceMaterial "tripo_mat_93982547"
-     AssignedMaterial "{38EE0509137F2C3E}Common/Models/Data/tripo_mat_93982547.emat"
+     AssignedMaterial "{38EE0509137F2C3E}Common/Models/Data/SEN_Leg.emat"
     }
    }
    MeshParams {
