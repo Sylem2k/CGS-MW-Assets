@@ -1,0 +1,7 @@
+MatPBRBasic {
+ EmissiveMap "{4F1DC3C9739CCB7C}Common/Models/Mech Body/Light/Data/Battle_mech_04_Textures_Normal.edds"
+ BCRMap "{9197BF06D3B66CFC}Common/Models/Mech Body/Light/Data/Battle_mech_04_Textures_Base_color.edds"
+ NMOMap "{67E37372EE4F4A7A}Common/Models/Mech Body/Light/Data/initialShadingGroup_Mixed_AO.edds"
+ DetailNormalMap "{1C1D05CA9CE6FD34}Common/Models/Mech Body/Light/Data/Battle_mech_04_Textures_Roughness.edds"
+ HeightMap "{5B409A37851A2266}Common/Models/Mech Body/Light/Data/iBattle_mech_04_Textures_Height.edds"
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{D4D105E9E275C600}Common/Models/Mech Body/Med/Data/ADV_M_003_Base_Color.edds"
+ NMOMap "{43882E13DC5BBEBA}Common/Models/Mech Body/Med/Data/ADV_M_003_Normal.edds"
+}

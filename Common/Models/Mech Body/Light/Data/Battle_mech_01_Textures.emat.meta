@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A0567CEEF184A18}Common/Models/Mech Body/Light/Data/Battle_mech_01_Textures.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

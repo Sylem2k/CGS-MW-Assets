@@ -1,4 +1,5 @@
 MatPBRBasic {
+ Color 0.1 0.037 0.037 1
  AllowUserAlphaBias 1
  DisableUserAphaInShadow 1
  BCRMap "{EC457EAB9C3E5C98}Common/Models/Mech Left Arm/Data/initialShadingGroup_Base_color.edds"
