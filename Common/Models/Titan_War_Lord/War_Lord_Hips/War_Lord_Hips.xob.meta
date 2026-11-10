@@ -1,7 +1,8 @@
 MetaFileClass {
- Name "{F48F636EE161C85C}Common/Models/Titan_War_Lord/War_Lord_Hips.xob"
+ Name "{F48F636EE161C85C}Common/Models/Titan_War_Lord/War_Lord_Hips/War_Lord_Hips.xob"
  Configurations {
   FBXResourceClass PC {
+   Rotate 0 180 0
    MaterialAssigns {
     MaterialAssignClass "{6AD40AA05C4B5774}" {
      SourceMaterial "WarlordBase"
