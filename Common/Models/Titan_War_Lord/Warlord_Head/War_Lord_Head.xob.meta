@@ -1,7 +1,8 @@
 MetaFileClass {
- Name "{8F91A214D9047D09}Common/Models/Titan_War_Lord/War_Lord_Head.xob"
+ Name "{8F91A214D9047D09}Common/Models/Titan_War_Lord/Warlord_Head/War_Lord_Head.xob"
  Configurations {
   FBXResourceClass PC {
+   Scale 2 2 2
    Rotate 0 180 0
    MaterialAssigns {
     MaterialAssignClass "{6AAE3A1516B66B1F}" {

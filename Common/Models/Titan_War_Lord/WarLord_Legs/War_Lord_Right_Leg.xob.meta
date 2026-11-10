@@ -1,8 +1,9 @@
 MetaFileClass {
- Name "{8AA09729CA0DB2A2}Common/Models/Titan_War_Lord/War_Lord_Right_Leg.xob"
+ Name "{8AA09729CA0DB2A2}Common/Models/Titan_War_Lord/WarLord_Legs/War_Lord_Right_Leg.xob"
  Configurations {
   FBXResourceClass PC {
    ExportSkinning 1
+   Scale 2 2 2
    Rotate 0 180 0
    MaterialAssigns {
     MaterialAssignClass "{6AAE3A15135B4EAD}" {
