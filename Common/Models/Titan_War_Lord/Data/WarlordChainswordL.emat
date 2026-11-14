@@ -1,4 +1,5 @@
 MatPBRBasic {
+ Color 0.502 0 0 1
  AllowUserAlphaBias 1
  DisableUserAphaInShadow 1
  BCRMap "{D1A63460DE296EDB}Common/Models/Titan_War_Lord/Data/Imperial_Titan_WarlordChainswordL_BCR.edds"
